@@ -14,7 +14,9 @@
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "types": ["cypress"]
   },
-  "include": ["src"]
+  "include": ["src", "cypress"]
 }
