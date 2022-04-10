@@ -1,46 +1,41 @@
-# Dark Mode Coding Challenge 🌙 &nbsp; ![medium](https://img.shields.io/badge/-Medium-yellow) ![time](https://img.shields.io/badge/%E2%8F%B0-30m-blue)
+# Dark Mode Coding Challenge 🌙
 
-&nbsp;
+[![CI](https://github.com/fenghan34/dark-mode-test/actions/workflows/ci.yaml/badge.svg)](https://github.com/fenghan34/dark-mode-test/actions/workflows/ci.yaml)
 
-# Goals / Outcomes ✨
+😁 Thanks for taking the time to review my code. I'm looking forward to working with you in the future.
 
-- Using state and global state
-- DOM manipulation
+This project is deployed with Vercel, You can check it out [here](https://dark-mode-test.vercel.app/).
 
-&nbsp;
+## Workflow
 
-# Pre-requisites ✅
+Install dependencies.
 
-None
+```shell
+yarn
+```
 
-&nbsp;
+Start the local server.
 
-# Requirements 📖
+```shell
+yarn dev
+```
 
-- Add dark-mode switching functionality to the _existing_ dark-mode button
-  - Utilise the _existing_ dark-mode scss file by adding a `dark-mode` class to the root `html` element
-- When in Dark mode:
-  - The button icon should be `faSun`
-  - The button icon colour should be `(#FFA500)`. You can use the `color` prop on the `Icon` component.
+Run unit tests.
 
-&nbsp;
+```shell
+yarn test
+```
 
-# Think about 💡
+Run cypress tests.
 
-- How we would use Dark mode on other potential routes/components in a bigger application. Would your solution work for this?
-- How we can apply a class to the `html` DOM element
+```shell
+yarn cy:open
+# or
+yarn cy:run
+```
 
-&nbsp;
+Lint code and types.
 
-# What's Already Been Done 🏁
-
-- Basic app UI (mobile responsive)
-- Dark mode and light mode styles/themes
-
-&nbsp;
-
-# Screenshots 🌄
-
-&nbsp;
-![screenshot-light](https://puu.sh/Fq13d/04a9e5ad48.png)
-![screenshot-dark](https://puu.sh/Ilwao/795ef304a2.png)
+```shell
+yarn lint
+```
